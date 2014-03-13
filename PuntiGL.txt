@@ -1,0 +1,94 @@
+ su safari: 
+
+pagina di indice:
+- la musica non è in loop: voluto?
+purtroppo temo dipenda da un limite della libreria js
+il codice è il medesimo
+
+- le scritte mi sembrano un po' grandi, soprattutto il testo sui dati aperti e i credits; ho notato che rimpicciolendo la finestra si riduce anche il corpo, ma a gusto mio partirei da un qualcosa di più piccolo...
+qua si dovrebbe introdurre dei condizionali su css per gestire delle dimensioni diverse, purtroppo al momento il css non distingue,
+introdurle per me che non mastico ben il css non è facile specie senza avere un safari.
+
+
+- l'immagine dell'Europa si ripete, giusto? Per come la vedo io, l'accostamento cade in un punto poco piacevole (stringendo la finestra si nota meno, ma alla prima vista lo stacco tra terra e oceano non è stato un granché...)
+corretto, ho messo una sfumatura, che dici? 
+- per l ridimensionamento delle immagini: quella sopra i 1024 è solo quella dell'Europa (l'ho ridotta), per le altre, pensavi di ridurre ulteriormente? a quanto?
+Forse ho risolto. Ho cambiato formato comprimendo, ritoccato tutte le immagini alleggerendole di KB, la pagina dovrebbe essere più snella ora.
+- bello il collegamento al sito "istituzionale" degli opendata!
+Thanks.
+
+:: Toblino
+- la musica è da sostituire con il loop con il fade out... e non è in loop: voluto?
+il loop difetto del primo punto, per il fade out, fatto
+- il testo della prima parte della leggenda compare, scompare e poi ricompare
+wow... dipende dalla dimensione della finestra.... stringendo il testo si allunga ed il calcolo fisso dell'effetto sbaglia il tempo... :(
+BEL CASINO
+visti i tempi ormai dovremo usare l'ascia e tagliare...semplificare
+- per la ricetta, teniamo questa?
+per me ok, solo due note: basta che non si lamenti il risto e purtroppo non lega con il vin santo... 
+
+:: Molveno
+- per le musiche, come Toblino
+come sopra.
+- la tabella con i dati è impaginata in maniera diversa da Toblino; inoltre, "sparisce" troppo in fretta
+fixed
+- anche la leggenda ha una impaginazione diversa: voluto? Teniamo questo come testo?
+>se per te ok, per me ok
+- facciamo a meno della ricetta? Dopo la ciuiga, non ci sono altre pagine...
+>no, no, ho preparato lo spazio vuoto, 
+
+:: Caldonazzo
+- musiche, come sopra
+>come sopra.
+- i testi di Spin e Ricetta hanno un corpo più piccolo rispetto al resto... e direi troppo piccolo!
+>caspita, curioso, questo è un valore relativo unico per tutte le pagine ...
+>quindi se tocco qui tocco tutte e non ho capito bene :(
+- per la ricetta, teniamo questa? A me va bene!
+>l'ho presa pari pari da un sito... come sopra, speriamo che non si arrabbino
+- impaginazione di Spin e Ricetta: titolo centrato e testo a sinistra, voluto?
+>non è voluto, ma se non rompe ...
+
+:: Ledro
+- musiche, come sopra
+>ok,
+- la seconda parte della leggenda viene "troncata", nel senso che non la si legge tutta - se allargo al massimo la finestra di Safari, allora riesco a leggere anche la fine
+> provo a aggiungere una slide... provo
+
+:: Garda
+- musiche... ok, hai capito! ;-)
+>ok
+- lo sfondo del nome del lago mi sembra più scuro di quello della descrizione
+>fixed, si, lo era per tutti i titoloni è che qui con l'azzurro risaltava maggiormente
+- il testo della leggenda è più piccolo (forse un po' troppo) rispetto al resto: è perché altrimenti non ci sta tutta?
+>vedi sopra, il testo in qualche modo boh si riconfigura in qualche modo penso si stringa da solo se lungo... ingornza mia css.
+- anche qui, manca una pagina dopo il prodotto: saltiamo la ricetta?
+>come sopra, ...reintrodotto MA HO SCASSATO l'ultima immagine e c'e' sovrapposizione....
+DA FIXARE!!! altro giorno ora son stanco...
+
+
+:: Santa Giustina
+- il testo della diga: stesso problema di Toblino
+- il testo su Clesio ha qualche punto da sistemare
+ritagliato da wikipedia, ho ritoccato ma fixa pure quanto vuoi.
+- manca anche qui una pagina per la ricetta: ne facciamo a meno?
+come sopra, da reintrodurre.
+
+Poi, in ordine sparso:
+- resterebbe la questione del colore de "i numeri ci dicono che" (il testo si può anche cambiare) e dello sfondo dell'immagine che scivola sulla sinistra...
+- lo sfondo del nome del lago io lo farei largo quanto la descrizione sotto, se possibile...
+- per le musiche: visto che in realtà le "pagine" sono sette, provo a farne una settima, in modo da non doverne ripetere una?
+yes, poi basta che sovrascrivi quella che vuoi cambiare mantendo il nome ;)
+- come illustrazioni, ci limitiamo a due? Avete deciso qualcosa con Chris?
+Chirs non si è presentato :(
+- non ho notato particolari problemi di caricamento (alcune volte ci mette un attimo a far comparire la prima foto, ma poi va tutto liscio)
+molto bene
+
+Non contento, ho provato anche su firefox:
+- et volià, le musiche sono in loop! c.v.d. ;-)
+- i testi sono in genere più piccoli (forse troppo)
+il problema è che se allargo allargo tutto,
+se puoi/vuoi puoi provare a cambiare il font per body in foglio css condiviso main.css?
+- il problema con la leggenda su Toblino non c'è più, ma l'ingresso e l'uscita sono piuttosto bruschi
+vedi problema sopra... i fadein/out sono pericolosetti, per dimensioni variabili di finestra.... provo a lavorare di cacciavite.
+se non ci cavo un ragno teniamo quelli salvo lucidata di ultimo minuto.
+
